@@ -1,0 +1,16 @@
+function repeatStringNumTimes(str, num) {
+  let valueCopy=str
+  if(num >0){
+   for(var i=0;i<num-1;i++){
+   valueCopy= valueCopy.concat(str)
+  }
+  }else{
+     valueCopy= ""
+  }
+ 
+  console.log(valueCopy)
+
+  return valueCopy;
+}
+
+repeatStringNumTimes("abc", -2);
